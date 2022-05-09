@@ -1,0 +1,34 @@
+.CustomCards {
+  width: 250px;
+  border: 1px solid #e9e9e9;
+  padding: 8px 5px 8px 15px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.CustomCards__Selected {
+  background-color: #0075be79;
+  color: #ffffff;
+}
+
+.CustomCards:hover {
+  background-color: #083d5e13;
+  color: #505d69;
+}
+
+.CustomCards__Selected:hover {
+  background-color: #0075be79;
+  color: #ffffff;
+}
+/*# sourceMappingURL=styles.css.map */

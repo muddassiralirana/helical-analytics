@@ -1,0 +1,116 @@
+/* Styling for Folder.js */
+
+.Folder__Lists {
+  cursor: pointer;
+  list-style-type: none;
+  height: 40px;
+  padding: 0px 6px;
+  border-bottom: 1px solid #dfe7ec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Inputs_feilds {
+  outline: none;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.Buttons_profile {
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  border-color: white;
+}
+
+.Buttons_profile:focus {
+  outline: none;
+  border-color: none;
+}
+
+.Folder__Lists:first-child {
+  border-top: 1px solid #dfe7ec;
+}
+
+.Folder__Lists:hover {
+  background-color: rgba(216, 216, 216, 0.5);
+}
+
+.Folder__Selected {
+  background-color: rgba(216, 216, 216, 0.5);
+}
+
+.Folder__Scroll {
+  //to make folder list scrollable
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.scroll {
+  // to make table scrollable
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.scroll1 {
+  // to make table scrollable
+  height: 300px;
+  overflow-y: scroll;
+}
+
+//datatables folder scroll
+.Datatable__Lists {
+  list-style-type: none;
+  height: 40px;
+  padding: 0px 6px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Datatable__Lists:first-child {
+  border-top: 1px solid black;
+}
+
+.Datatable__Scroll {
+  //to make folder list scrollable
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.AfterSelect_Box_Container {
+  min-height: 20px;
+  border: 3px dashed #c7c7c779;
+  padding: 5px;
+
+  .AfterSelect_Box_Icons {
+    display: flex;
+    justify-content: flex-end;
+    i {
+      font-size: 25px;
+    }
+  }
+
+  .AfterSelect_Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 14px;
+    }
+    ul {
+      li {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.SearchPlus {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 800;
+  color: #53a7ff;
+}
